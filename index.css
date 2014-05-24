@@ -3,21 +3,27 @@ body {
   margin: 0;
     }
 div {}
-  .main-0{
+  .main-1 {
     background-image: url("http://f.cl.ly/items/0b383e1f0M472W0o021Z/照片%206.JPG");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0px 0px center;
     text-align: center;
-    height: 700px;
+    height: 600px;
+    margin: 0px 0px 0px 0px;
   }
-  .main {
-    margin-top: 100px;
+  .main-2 {
     background-color: #fff;
+    margin: 0px 27px 0px 27px;
   }
-a {
-  color: #fff;
-}
+  .text {
+    text-color: #737373;
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0px 27px 15px 27px;
+  }
   h1 {
     color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -34,7 +40,21 @@ a {
   h2 {
     color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 200;
     text-align: center;
+    display: inline-flex;
+    margin-top: -10px;
+    padding: 0 22% 0 22%;
+  }
+  h3 {
+    color: #737373;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    border-color: #9B9B9B;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 17px 10px 17px;
+    display: inline-block;
   }
